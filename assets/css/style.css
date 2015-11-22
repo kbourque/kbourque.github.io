@@ -1,1 +1,61 @@
-"hello"
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	margin: 0 auto;
+	background-color: D8F1D3;
+}
+
+
+/** NAV BAR */
+.logo {
+    display: inline-block;
+    float: left;
+    padding-top: 10;
+    margin: 10;
+    margin-left: 30px;
+    color: grey;
+}
+
+.item {
+    float: left;
+    padding-top: 10;
+    margin: 10;
+    color: grey;
+}
+
+div#links {
+    margin-left: 850px;
+    position: relative;
+    float: right;
+    display: inline-block;
+    margin-right: 40px;
+    /* float: left; */
+}
+
+div#top-bar {
+    width: 100%;
+    margin: 0 auto;
+    background-color: D8F1D3;
+    position: fixed;
+    border-bottom-color: grey;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+}
+
+/** BODY */
+div#intro {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.intro-title {
+    font-size: 50;
+    color: grey;
+}
+
+.intro-text {
+    color: grey;
+}
