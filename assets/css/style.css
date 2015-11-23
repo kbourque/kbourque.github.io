@@ -59,3 +59,48 @@ div#intro {
 .intro-text {
     color: grey;
 }
+
+/** ABOUT PAGE */
+div#about {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 100px;
+}
+
+.image {
+    height: 60%;
+    width: 25%;
+    border-radius: 5px;
+    margin-left: 200px;
+    object-fit: cover;
+}
+
+div#about-text {
+    /* float: left; */
+    display: inline-block;
+    width: 30%;
+    margin-top: -440px;
+    margin-left: 550px;
+}
+
+div#sidebar {
+    position: fixed;
+    width: 280px;
+    height: 100%;
+    background-color: D8F1D3;
+    transform: translateY(10%);
+    transition: .3s;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.side-links {
+    margin-bottom: 30px;
+    color: grey;
+}
+
+div#kim {
+    /* float: left; */
+    display: inline-block;
+}
