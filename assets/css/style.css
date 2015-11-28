@@ -43,7 +43,6 @@ div#top-bar {
     border-bottom-style: solid;
     padding-bottom: 10px;
     z-index: 1;
-    opacity: .5;
 }
 
 /** HOME PAGE
@@ -137,56 +136,187 @@ img#cornerpic1 {
 
 /** ABOUT SECTION */
 div#about {
-    position: relative;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(-32%);
     z-index: 0;
 }
 
 .aboutsection {
     width: 100%;
-    height: 800px;
+    height: 600px;
     position: relative;
-    top: 880px;
+    top: 580;
 }
 
 div#about-text {
     float: left;
     display: inline-block;
-    width: 40%;
-    margin-top: -470px;
-    margin-left: 700px;
+    width: 45%;
+    height: 100%;
+    margin-top: -600px;
+    margin-left: 700;
+    font-size: 20px;
+    background-color: F9FFF4;
+    padding: 0px 40px 100px 40px;
+}
+
+.intro-text {
+    color: 33312E;
+    font-size: 20px;
+    color: 33312E;
+    margin-left: 20px;
+    width: 90%;
+    font-weight: bolder;
 }
 
 div#about-title {
     color: 33312E;
-    font-size: 40px;
+    font-size: 60px;
     margin-bottom: 20px;
+    margin-top: 50px;
     font-family: 'Pacifico', cursive;
 }
 
-/** ORG SECTION */
+/** SKILLS SECTION */
 #org-section {
-    background-color: #5E574C;
+    background-color: #386BD1;
 }
 
 div#org-text {
-    color: #5E534A;
-    font-size: 30;
+    color: #F9FFF4;
+    font-size: 100;
     width: 50%;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.78);
+    position: relative;
+    top: -90;
+    left: 550;
+}
+
+li {
+    background-color: #F9FFF4;
+    width: 20%;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    color: #386BD1;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border-color: #C6C6BE;
+    border-width: 5px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    -moz-box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+}
+
+#programmingskills {
+    margin-top: -100px;
+}
+
+li.progskills {
+    margin-left: 200px;
+}
+
+#designskills {
+    margin-top: -376px;
+}
+
+.designskills {
+    margin-left: 800px;
+}
+
+/* CONTACT SECTION */
+.contact-title {
+    font-family: 'Pacifico', cursive;
+    color: F9FFF4;
+    padding-top: 10px;
+    width: 80%;
+    margin-left: 550px;
+    font-size: 100px;
+}
+
+.contact-text {
+    padding-top: 20px;
+    width: 50%;
+    font-size: 20px;
+    margin-left: 490px;
+    font-weight: bolder;
+    color: F9FFF4;
+    letter-spacing: 1px;
 }
 
 #contact-section {
     background-color: #5E534A;
+    height: 500px;
 }
 
 .image {
-    height: 60%;
-    width: 30%;
+    height: 100%;
+    width: 70%;
     border-radius: 5px;
-    margin-left: 100px;
+    margin-left: -300;
     object-fit: cover;
-    margin-top: 100px;
+    margin-top: 0;
+}
+
+div#emailbutt {
+    background-color: #F9FFF4;
+    width: 20%;
+    list-style-type: none;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    color: #5E534A;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border-color: #C6C6BE;
+    border-width: 5px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    -moz-box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    font-family: 'Pacifico', cursive;
+    border-radius: 60px;
+    display: inline-block;
+    margin-left: 375px;
+}
+
+div#resumebutt {
+    background-color: #F9FFF4;
+    width: 20%;
+    list-style-type: none;
+    font-size: 30px;
+    margin: 10px;
+    padding: 20px 20px 20px 20px;
+    color: #5E534A;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border-color: #C6C6BE;
+    border-width: 5px;
+    text-align: center;
+    -webkit-box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    -moz-box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
+    font-family: 'Pacifico', cursive;
+    border-radius: 60px;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+div#email {
+    padding-top: 30px;
+}
+
+div#contacticons {
+    width: 20%;
+    padding-top: 30px;
+    margin-left: 625px;
+}
+
+img.conicon1 {
+    margin: 0px 20px;
 }
 
 /** SIDEBAR */
@@ -202,9 +332,13 @@ div#sidebar {
 }
 
 .side-links {
-    margin-bottom: 30px;
-    color: grey;
+    margin-bottom: 50px;
+    color: F9FFF4;
     z-index: 1;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 div#kim {
