@@ -163,7 +163,6 @@ div#about-text {
 .intro-text {
     color: 33312E;
     font-size: 20px;
-    color: 33312E;
     margin-left: 20px;
     width: 90%;
     font-weight: bolder;
@@ -319,6 +318,89 @@ img.conicon1 {
     margin: 0px 20px;
 }
 
+/** WORK PAGE
+    WORK PAGEEEEE
+    WORK PAGEEEEEEEE */
+
+div#work {
+    position: absolute;
+    left: -10px;
+    top: -45px;
+    background-color: #293DD8;
+}
+
+img.wimage {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+div#kb {
+    background-color: 33312E;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 300px;
+    font-family: 'Pacifico', cursive;
+    color: F9FFF4;
+    font-size: 100px;
+}
+
+img.wimageetc {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+div#gitlet {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    height: 600px;
+}
+
+div#dbms {
+    position: absolute;
+    top: 150px;
+    left: 750px;
+}
+
+div#reddit {
+    position: absolute;
+    top: 150px;
+    left: 425px;
+}
+
+div#kband {
+    position: absolute;
+    top: 150px;
+    left: 1075px;
+}
+
+.worktext {
+    color: 33312E;
+    font-size: 20px;
+    margin-left: 20px;
+    width: 90%;
+    font-weight: bolder;
+}
+
+div#kb {
+    background-color: 33312E;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 300px;
+    font-family: 'Pacifico', cursive;
+    color: F9FFF4;
+    font-size: 100px;
+    position: relative;
+}
+
+
 /** SIDEBAR */
 div#sidebar {
     position: fixed;
@@ -347,4 +429,5 @@ div#kim {
     margin-left: 200px;
     z-index: 1;
 }
+
 
