@@ -11,25 +11,109 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
         </script> 
         <script src = "assets/js/script.js"></script>
+        <script src="assets/js/jquery.waypoints.min.js"></script>
 	<body>
-		<div id = "intro">
-			<div class = "intro-title">
-			Kimberly Bourque
+<!-- Intro Section -->
+		<div id = "about">
+			<section class = "aboutsection" id="intro-section">
+			<div id = "intro">
+				<div class = "intro-title">
+				Kimberly Bourque
+				</div>
+				<div id = "intro-subtitle"> PROGRAMMING // DESIGN </div>
+				<div id = "intro-links">
+					<!-- Spine and Links -->
+					<div id = "spine"></div>
+					<div id = "mainicon1">
+						<img src="assets/images/smiley.svg" alt="icon" class="iconpic1">
+						<div class = "mainwords" id = "aboutme"> ABOUT </div>
+					</div>
+					<div id = "mainicon2">
+						<img src="assets/images/icon.svg" alt="icon" class="iconpic">
+						<div class = "mainwords" id = "towork"> WORK </div>
+					</div>
+					<div id = "mainicon3">
+						<img src="assets/images/contact.svg" alt="icon" class="iconpic">
+						<div class = "mainwords" id = "at"> CONTACT </div>
+					</div>
+				</div>
 			</div>
-			<div id = "intro-subtitle"> PROGRAMMING // DESIGN </div>
-			<div id = "intro-links">
-				<!-- Spine and Links -->
-				<div id = "spine"></div>
-				<div id = "mainicon1">
-					<img src="assets/images/icon.svg" alt="icon" class="iconpic1">
+			</section>
+<!-- About Section: -->
+			<section class="aboutsection" id="about-section">
+				<div id="kim">
+					<img src="assets/images/kim.jpg" alt="me" class="image"/>
 				</div>
-				<div id = "mainicon2">
-					<img src="assets/images/icon.svg" alt="icon" class="iconpic">
+				<div id="about-text">
+					<div id="about-title">Hi, my name is Kim!</div>
+					<div class = "intro-text">
+					<p>I'm currently a sophomore studying Computer Science and Cognitive Science at UC Berkeley. I code. I teach. I journal. I drink excessive amounts of coffee. Most of all, I try to learn as much as I can along the way.</p>
+
+					<p>I'm also involved in a lot of cool things this semester! I'm doing work in Cal's student government; I hosted a SOC in STEM workshop at the annual UC-wide Students of Color Conference this semester. I am also a Dropbox Student Ambassador, and I am part of executive board of Cal Queer and Asian. I'm currently teaching students about CS concepts as a CSM mentor, and I've been a Health Educator in Peer Health Exchange in the past.</p>
+					</div>
 				</div>
-				<div id = "mainicon3">
-					<img src="assets/images/icon.svg" alt="icon" class="iconpic">
+			</section>
+<!-- Work Section -->
+			<section class = "aboutsection" id = "work-section">
+			<div class = "contact-title"> Projects </div>
+			<div id="work">
+    		<div id = "gitlet">
+				<img src="assets/images/work/gitlet.png" alt="me" class="wimageetc"/>
+				<p class = "worktext"> A version control system similar to git that serves as a backup system for files. </p>
+			</div>
+			<div id = "reddit">
+				<p class = "worktext"> A redesign of the popular website, reddit. </p>
+				<img src="assets/images/work/reddit.png" alt="me" class="wimage"/>
+			</div>
+			<div id = "dbms">
+				<img src="assets/images/work/DBMS.png" alt="me" class="wimage"/>
+				<p class = "worktext"> A miniature relational database management system. </p>
+			</div>
+			<div id = "kband">
+				<p class = "worktext"> My own portfolio, built from the ground up. </p>
+				<div id = "kb">
+					kb
 				</div>
 			</div>
 		</div>
+		</section>
+<!-- Skills Section -->
+			<section class="aboutsection" id="org-section">
+				<div id = "org-text">
+					Skills
+				</div>
+				<ul id = "programmingskills">
+					<li class = "progskills">Python</li>
+					<li class = "progskills">Java</li>
+					<li class = "progskills">SQL</li>
+					<li class = "progskills">Proficiency with Git</li>
+					<li class = "progskills">Android Studio</li>
+				</ul>
+				<ul id = "designskills">
+					<li class = "designskills">HTML</li>
+					<li class = "designskills">CSS</li>
+					<li class = "designskills">JavaScript + jQuery</li>
+					<li class = "designskills">Adobe Illustrator</li>
+					<li class = "designskills">Adobe PhotoShop</li>
+				</ul>
+			</section>
+<!-- Contact Section -->
+			<section class="aboutsection" id="contact-section">
+				<div class = "contact-title">
+					Say hi!
+				</div>
+				<div class = "contact-text">
+					I am also currently available for freelance work.
+				</div>
+				<div id = "email">
+					<div id = "emailbutt"> E-mail </div>
+					<div id = "resumebutt"> Resume </div>
+				</div>
+				<div id = "contacticons">
+					<img src="assets/images/github.png" alt="me" class="conicon1"/>
+					<img src="assets/images/in.png" alt="me" class="conicon2"/>
+				</div>
+			</section>
+			</div>
 	</body>
 </html>

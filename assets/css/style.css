@@ -1,8 +1,8 @@
 body {
-	font-family: 'Gudea', sans-serif;
-	font-weight: 500;
-	margin: 0 auto;
-	background-color: F9FFF4;
+    font-family: 'Gudea', sans-serif;
+    font-weight: 500;
+    margin: 0 auto;
+    background-color: F9FFF4;
 }
 
 
@@ -48,19 +48,22 @@ div#top-bar {
 /** HOME PAGE
     HOME PAGEEEEE
     HOME PAGEEEEEEEE */
+section#intro-section {
+    /* height: 1850; */
+    height: 100%;
+}
 
 
 div#intro {
-    top: 300px;
-    transform: translateY(-50%);
-    text-align: center;
     position: absolute;
+    /* top: 1100px; */
+    top: 200px;
 }
 
 div#intro-links {
     position: relative;
     top: -120;
-    left: 80;
+    left: 84;
 }
 
 #intro-subtitle {
@@ -71,7 +74,7 @@ div#intro-links {
     position: absolute;
     top: 215px;
     width: 100%;
-    left: 51%;
+    left: 79%;
     letter-spacing: 4px;
 }
 
@@ -99,12 +102,41 @@ div#intro-links {
     top: 275;
 }
 
+.mainwords {
+    color: 33312E;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+div#aboutme {
+    margin-left: 35px;
+    margin-top: -20px;
+}
+
+div#towork {
+    margin-top: -6;
+    margin-left: 40px;
+}
+
+div#at {
+    margin-top: -20px;
+    margin-left: 27px;
+}
+
 div#mainicon1 {
     position: absolute;
     height: 125px;
     width: 125px;
     left: 320px;
-    top: 200px;
+    top: 215px;
+}
+
+.mainicon1active {
+    position: absolute;
+    height: 160;
+    width: 160;
+    left: 320px;
+    top: 195;
 }
 
 div#mainicon2 {
@@ -119,7 +151,7 @@ div#mainicon3 {
     position: absolute;
     height: 125px;
     width: 125px;
-    top: 200px;
+    top: 215px;
     left: 840;
 }
 
@@ -135,44 +167,41 @@ img#cornerpic1 {
     ABOUT PAGEEEEEEEEEEEE */
 
 /** ABOUT SECTION */
+#about-section {
+    height: 800px;
+    background-color: A1C0F4;
+}
+
 div#about {
-    top: 50%;
-    transform: translateY(-32%);
-    z-index: 0;
+    overflow: hidden;
 }
 
 .aboutsection {
     width: 100%;
     height: 600px;
-    position: relative;
-    top: 580;
 }
 
 div#about-text {
     float: left;
-    display: inline-block;
-    width: 45%;
-    height: 100%;
-    margin-top: -600px;
-    margin-left: 700;
+    width: 50%;
     font-size: 20px;
-    background-color: F9FFF4;
-    padding: 0px 40px 100px 40px;
+    background-color: 33312E;
+    height: 100%;
 }
 
 .intro-text {
-    color: 33312E;
-    font-size: 20px;
-    margin-left: 20px;
-    width: 90%;
+    color: F9FFF4;
+    font-size: 25px;
+    margin-left: 60px;
+    width: 80%;
     font-weight: bolder;
+    padding-top: 10px;
 }
 
 div#about-title {
-    color: 33312E;
+    color: F9FFF4;
     font-size: 60px;
-    margin-bottom: 20px;
-    margin-top: 50px;
+    margin: 40px 40px 20px 40px;
     font-family: 'Pacifico', cursive;
 }
 
@@ -188,8 +217,7 @@ div#org-text {
     font-family: 'Pacifico', cursive;
     text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.78);
     position: relative;
-    top: -90;
-    left: 550;
+    left: 570;
 }
 
 li {
@@ -210,10 +238,6 @@ li {
     box-shadow: 10px 10px 21px -9px rgba(97,97,97,1);
 }
 
-#programmingskills {
-    margin-top: -100px;
-}
-
 li.progskills {
     margin-left: 200px;
 }
@@ -230,7 +254,6 @@ li.progskills {
 .contact-title {
     font-family: 'Pacifico', cursive;
     color: F9FFF4;
-    padding-top: 10px;
     width: 80%;
     margin-left: 550px;
     font-size: 100px;
@@ -247,15 +270,14 @@ li.progskills {
 }
 
 #contact-section {
-    background-color: #5E534A;
+    background-color: #C3D5F4;
     height: 500px;
 }
 
 .image {
     height: 100%;
-    width: 70%;
+    width: 100%;
     border-radius: 5px;
-    margin-left: -300;
     object-fit: cover;
     margin-top: 0;
 }
@@ -267,7 +289,7 @@ div#emailbutt {
     font-size: 30px;
     margin: 10px;
     padding: 20px 20px 20px 20px;
-    color: #5E534A;
+    color: #33312E;
     letter-spacing: 1px;
     font-weight: bolder;
     border-color: #C6C6BE;
@@ -289,7 +311,7 @@ div#resumebutt {
     font-size: 30px;
     margin: 10px;
     padding: 20px 20px 20px 20px;
-    color: #5E534A;
+    color: #33312E;
     letter-spacing: 1px;
     font-weight: bolder;
     border-color: #C6C6BE;
@@ -322,11 +344,17 @@ img.conicon1 {
     WORK PAGEEEEE
     WORK PAGEEEEEEEE */
 
+section#work-section {
+    background-color: #5E534A;
+    height: 800px;
+}
+
 div#work {
-    position: absolute;
-    left: -10px;
-    top: -45px;
-    background-color: #293DD8;
+    left: 10p;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-top: 50px;
 }
 
 img.wimage {
@@ -355,35 +383,34 @@ img.wimageetc {
 }
 
 div#gitlet {
-    position: absolute;
-    top: 150px;
-    left: 100px;
-    height: 600px;
+    float: left;
+    width: 22%;
+    margin-left: -;
+    padding-right: 30px;
 }
 
 div#dbms {
-    position: absolute;
-    top: 150px;
-    left: 750px;
+    float: left;
+    width: 22%;
+    padding-right: 30px;
 }
 
 div#reddit {
-    position: absolute;
-    top: 150px;
-    left: 425px;
+    float: left;
+    width: 22%;
+    padding-right: 30px;
 }
 
 div#kband {
-    position: absolute;
-    top: 150px;
-    left: 1075px;
+    float: left;
+    margin-left: -;
+    width: 22%;
 }
 
 .worktext {
-    color: 33312E;
+    color: F9FFF4;
     font-size: 20px;
-    margin-left: 20px;
-    width: 90%;
+    width: 80%;
     font-weight: bolder;
 }
 
@@ -424,10 +451,10 @@ div#sidebar {
 }
 
 div#kim {
-    float: left; 
-    display: inline-block;
-    margin-left: 200px;
+    float: left;
     z-index: 1;
+    height: 100%;
+    width: 50%;
 }
 
 
