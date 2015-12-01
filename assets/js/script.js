@@ -52,6 +52,7 @@ $(document).ready(function() {
 			$('#at').fadeOut();
 			$(this).css('opacity', '1');
 		});
+
 /* Clicking buttons brings to respective div. */
 
 	$('#mainicon1').click(function() {
@@ -68,6 +69,20 @@ $(document).ready(function() {
 			$(window).scrollTo('#contact-section', 800);
 		}
 	);
+
+/** SKILLS SECTION **/
+
+	$('.progskills').hover(
+		function() {
+			$('.progskills').animate({
+				"-webkit-box-shadow": "32px 22px 5px 0px rgba(0,0,0,0.75)",
+				"-moz-box-shadow": "32px 22px 5px 0px rgba(0,0,0,0.75)",
+				"box-shadow": "32px 22px 5px 0px rgba(0,0,0,0.75)",
+				"height": "500"
+			}, 5000)
+		},
+		$(this).hide()
+		);
 
 
 });
