@@ -1,32 +1,19 @@
 $(document).ready(function() {
 
-/*INTRO SECTION*/
+/** INTRO SECTION **/
 
-var notify = function(message) {
-      var $message = $('<p style="display:none;">' + message + '</p>');
+// var waypoints = $('#about-section').waypoint({
+//   handler: function(direction) {
+//     alert('Top of notify element hit top of viewport.');
+//   }
+// })
 
-      $('.notifications').append($message);
-      $message.slideDown(300, function() {
-        window.setTimeout(function() {
-          $message.slideUp(300, function() {
-            $message.remove();
-          });
-        }, 2000);
-      });
-    };
-
-var waypoints = $('#about-section').waypoint({
-  handler: function(direction) {
-    notify(this.element.id + ' hit')
-  }
-})
-
-//Hides descriptions of buttons in intro.
+/* Hides descriptions of buttons in intro. */
 	$('#aboutme').hide();
 	$('#towork').hide();
 	$('#at').hide();
 
-//Hovering over buttons in intro page.
+/* Hovering over buttons in intro page. */
 
 	$('#mainicon1').hover(
 
@@ -65,7 +52,22 @@ var waypoints = $('#about-section').waypoint({
 			$('#at').fadeOut();
 			$(this).css('opacity', '1');
 		});
+/* Clicking buttons brings to respective div. */
 
+	$('#mainicon1').click(function() {
+			$(window).scrollTo('#about-section', 800);
+		}
+	);
+
+	$('#mainicon2').click(function() {
+			$(window).scrollTo('#work-section', 800);
+		}
+	);
+
+	$('#mainicon3').click(function() {
+			$(window).scrollTo('#contact-section', 800);
+		}
+	);
 
 
 });
