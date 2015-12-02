@@ -328,12 +328,13 @@ div#resumebutt {
 
 div#email {
     padding-top: 30px;
+    margin-left: -40px;
 }
 
 div#contacticons {
     width: 20%;
     padding-top: 30px;
-    margin-left: 625px;
+    margin-left: 610px;
 }
 
 img.conicon1 {
@@ -412,6 +413,7 @@ div#kband {
     font-size: 20px;
     width: 80%;
     font-weight: bolder;
+    opacity: 0;
 }
 
 div#kb {
