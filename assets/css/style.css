@@ -6,7 +6,14 @@ body {
 }
 /**under construction msg **/
 .lol {
-    text-align: center;
+   text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-weight: 900;
+    font-size: 35;
+    padding-left: 40;
+    padding-right: 40;
 }
 
 /** NAV BAR */
