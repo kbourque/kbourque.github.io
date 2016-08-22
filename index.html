@@ -51,34 +51,36 @@
       }
 
       /* LANDING PAGE */
-      .page {
-        background: url('assets/images/kbbackground.png');
-        width:100%;
-        background-size:cover;
-        background-position-y: 30px;
-      }
 
-      
+      .page {
+        width:100%;
+      }      
 
       .titled {
         text-transform: uppercase;
         margin-top: 250px;
       }
 
-      #lptitle {
+      #lpTitle {
         margin-bottom: 0px;
       }
 
-      #lplead {
+      #lpLead {
         margin-bottom: 20px;
       }
       
-      #lpdescriptor {
+      #lpDescriptor {
         margin-bottom: 10px;
       }
 
       #topRow {
         margin-left: 6%;
+      }
+
+      #titlePage {
+        background: url('assets/images/kbbackground.png');
+        background-size:cover;
+        background-position-y: 30px;
       }
 
 
@@ -88,6 +90,35 @@
 
       a.icon {
         margin-left: -25px;
+      }
+
+      /* WORK PAGE */
+      .workTitle {
+        text-transform: uppercase;
+        font-size: 250%;
+        margin-left: .8em;
+      }
+
+      .box {
+        background-color: #333333;
+        width: 70%;
+        height: 200px;
+        margin-top: 80px;
+      }
+
+      .work {
+        margin-left: 30px;
+      }
+
+      .bottomRow {
+        margin-top: 80px;
+      }
+
+      #spine {
+        width: 95%;
+        height: 2px;
+        background: #FF624F;
+        position: absolute;
       }
 
 
@@ -105,7 +136,7 @@
       <div class="container container-fluid">
         <div class="navbar-header">
           <!-- COLLAPSE PORTION -->
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -117,7 +148,7 @@
           </a>
         </div>
 
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse navbar-right" id="nav-collapse-1">
           <ul class="nav navbar-nav category">
               <li class="active"><a href="#">Work<span class="sr-only">(current)</span></a></li>
               <li><a href="#">About</a></li>
@@ -127,12 +158,12 @@
     </nav>
 
     <!-- LANDING PAGE -->
-    <div class="container page contentContainer">
+    <div class="container page contentContainer" id="titlePage">
       <div class="row titled">
           <div class="col-md-6 col-md-offset-1" id="topRow">
-            <h1 class="left title" id="lptitle">Kimberly Bourque</h1>
-            <h3 class="left" id="lplead" >Engineering + Design</h3>
-            <p class="left lead" id="lpdescriptor">Computer Science at UC Berkeley</p>
+            <h1 class="left title" id="lpTitle">Kimberly Bourque</h1>
+            <h3 class="left" id="lpLead" >Engineering + Design</h3>
+            <p class="left lead" id="lpDescriptor">Computer Science at UC Berkeley</p>
             <div class="row">
               <a class="navbar-brand" href="https://github.com/kbourque">
                 <img class="icon" alt="github" src="assets/images/githubicon.png"/>
@@ -153,6 +184,75 @@
           </div>
         </div>
     </div>
+
+    <div class="container page contentContainer">
+
+      <div class="row">
+        <h1 class="workTitle">Programming</h1>
+      </div>
+      <div id="spine"></div>
+      <div class="row work">
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row bottomRow">
+        <h1 class="workTitle">Design</h1>
+      </div>
+      <div id="spine"></div>
+      <div class="row work">
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+      </div>
+
+      <div class="row bottomRow">
+          <h1 class="workTitle">Graphic & Art</h1>
+      </div>
+      <div id="spine"></div>
+      <div class="row work">
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+      </div>
+    
+      <div class="row bottomRow">
+        <h1 class="workTitle">Teaching</h1>
+      </div>
+      <div id="spine"></div>
+      <div class="row work">
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+        <div class="col-md-4">
+          <div class="box"></div>
+        </div>
+      </div>
+    </div>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
