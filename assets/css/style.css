@@ -30,6 +30,10 @@
         background: url('../images/kbmobile.png');
       	}
 
+      	a.icon {
+			margin-left: -30px;
+      	}
+
       }
 
 
@@ -47,6 +51,10 @@
 
 		#titlePage {
 			background: url('../images/kbbackground.png');
+		}
+
+		a.icon {
+			margin-left: -25px;
 		}
 
       }
@@ -126,10 +134,6 @@
 
       img.icon {
         width:70%;
-      }
-
-      a.icon {
-        margin-left: -25px;
       }
 
       /* WORK PAGE */
