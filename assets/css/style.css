@@ -12,9 +12,43 @@
 
       
       /* NAVBAR & NAVBAR LINKS */
+
+      @media screen and (max-width: 768px) {
+		#logo {
+      	margin-top: -10px;
+      	}
+
+      	#about {
+      	margin-left: 20px;
+      	}
+		
+		#aboutdiv {
+			margin-top: -100px;
+		}
+
+      }
+
+      @media screen and (min-width: 768px) { 
+		
+		#logo {
+			margin-top: 0px;
+			margin-left: -40px;
+		}
+
+		 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+  	margin-left: -15px;
+		}
+
+      }
       .navbar {
         border: none;
       }
+
+      .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: -15px;
+  	margin-left: 0px;
+		}
 
       .navbar-default {
         background-color: transparent;
@@ -40,10 +74,6 @@
 
       .navbar-default .navbar-nav>.active>a, .navbar-nav>.active>a:hover {
         background-color: transparent;
-      }
-
-      #logo {
-        margin-left: -40px;
       }
 
       /* LANDING PAGE */
@@ -119,7 +149,6 @@
       }
 
       /* ABOUT */
-
       .center {
         text-align: center;
       }
