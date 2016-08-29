@@ -26,7 +26,12 @@
 			margin-top: -100px;
 		}
 
+		#titlePage {
+        background: url('../images/kbmobile.png');
+      	}
+
       }
+
 
       @media screen and (min-width: 768px) { 
 		
@@ -40,7 +45,13 @@
   	margin-left: -15px;
 		}
 
+		#titlePage {
+			background: url('../images/kbbackground.png');
+		}
+
       }
+
+
       .navbar {
         border: none;
       }
@@ -108,7 +119,6 @@
       }
 
       #titlePage {
-        background: url('../images/kbbackground.png');
         background-size:cover;
         background-position-y: 30px;
       }
